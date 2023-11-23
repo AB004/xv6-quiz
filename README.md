@@ -117,3 +117,58 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 
 ## Answers
 Please write your answers here
+
+
+1. B
+2. C
+3. D
+4. B
+5. C
+6. C
+7. A
+8. A
+9. B
+10. B
+11. C
+    
+12. In XV6, processes can be in states such as UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, and ZOMBIE.
+    
+13. In XV6, the file system comprises a simple hierarchical structure with a root directory. Key components include an inode table storing file metadata, data blocks for content storage, and directories that map file names to inodes,        facilitating organized file access and storage. The Superblock holds overall file system information.
+   
+14. System calls are low-level functions provided by the kernel to access hardware resources and perform privileged operations. They are implemented in kernel space and require a context switch to execute. Examples of system calls       
+    include fork(), exec(), open(), read(), and write().
+
+    Library functions are implemented in user space and do not require kernel intervention. They are typically written in a high-level programming language like C and provide a more abstract and user-friendly interface for common tasks. 
+    Examples of library functions include printf(), scanf(), malloc(), free(), and strlen().
+    
+15.In XV6, memory paging involves dividing physical memory into fixed-size pages and maintaining a page table to map virtual addresses to corresponding physical addresses. Paging provides benefits such as efficient use of physical    
+    memory, simplified memory allocation, and the ability to implement features like demand paging and virtual memory, enhancing system flexibility and performance.
+
+16. (i) ls: Lists the contents of the current directory, displaying file and directory names.
+    (ii) cd: Changes the current working directory. For instance, cd myfolder navigates to the "myfolder" directory.
+    (iii) echo: Displays a message or variable value on the screen. For instance, echo "Hello, XV6!" prints the message "Hello, XV6!" to the console.
+
+17. Process synchronization in XV6 is crucial for preventing conflicts between concurrent processes accessing shared resources. It employs locks, mutexes, semaphores, and conditional variables to coordinate and control access. These    
+    mechanisms ensure orderly execution, data integrity, and prevent race conditions in a multi-process environment.
+
+18.  In XV6, interrupts facilitate immediate responses to external events by directing the CPU to specific handlers. Managed through interrupt vectors, they enhance system efficiency by enabling concurrent task handling and reducing the      need for constant polling.
+
+19. Virtual memory is a memory management technique that provides an idealized abstraction of the storage resources. In XV6, virtual memory is implemented through paging, where the operating system maps virtual addresses used by a 
+    program to physical addresses in the system's RAM.
+    
+    Advantages:
+    Isolation,Efficient Use of Memory,Simplified Memory Management,Ease of Program Development
+
+21. BIOS/UEFI Initialization: Hardware setup.
+    Bootloader Execution: Loads bootloader.
+    Bootloader Initialization: Locates and loads XV6 kernel.
+    Kernel Loading: XV6 kernel loaded into memory.
+    Kernel Initialization: System setup.
+    User-Space Init: Launches user-level init process.
+    Init Process Execution: Begins user environment.
+
+
+
+
+
+   
