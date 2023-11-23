@@ -123,7 +123,7 @@ Please write your answers here
 2. C
 3. D
 4. B
-5. C
+5. D
 6. C
 7. A
 8. A
@@ -141,8 +141,8 @@ Please write your answers here
     Library functions are implemented in user space and do not require kernel intervention. They are typically written in a high-level programming language like C and provide a more abstract and user-friendly interface for common tasks. 
     Examples of library functions include printf(), scanf(), malloc(), free(), and strlen().
     
-15.In XV6, memory paging involves dividing physical memory into fixed-size pages and maintaining a page table to map virtual addresses to corresponding physical addresses. Paging provides benefits such as efficient use of physical    
-    memory, simplified memory allocation, and the ability to implement features like demand paging and virtual memory, enhancing system flexibility and performance.
+15. In XV6, memory paging involves dividing physical memory into fixed-size pages and maintaining a page table to map virtual addresses to corresponding physical addresses. Paging provides benefits such as efficient use of physical    
+     memory, simplified memory allocation, and the ability to implement features like demand paging and virtual memory, enhancing system flexibility and performance.
 
 16. (i) ls: Lists the contents of the current directory, displaying file and directory names.
     (ii) cd: Changes the current working directory. For instance, cd myfolder navigates to the "myfolder" directory.
@@ -159,7 +159,7 @@ Please write your answers here
     Advantages:
     Isolation,Efficient Use of Memory,Simplified Memory Management,Ease of Program Development
 
-21. BIOS/UEFI Initialization: Hardware setup.
+20. BIOS/UEFI Initialization: Hardware setup.
     Bootloader Execution: Loads bootloader.
     Bootloader Initialization: Locates and loads XV6 kernel.
     Kernel Loading: XV6 kernel loaded into memory.
